@@ -25,7 +25,6 @@ const App = () => {
   const [isModalShown, setIsModalShown] = useState(false);
 
   const openModal = () => setIsModalShown(true);
-  const closeModal = () => setIsModalShown(false);
 
   return (
     <main>
