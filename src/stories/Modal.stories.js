@@ -18,12 +18,9 @@ stories.add('App', () => {
       <Modal
         isShown={isModalShown}
         trigger={setIsModalShown}
-        title={"Retour à l'accueil"}
-        message={
-          <div>
-            En cliquant <a href="/">ici</a> je pourrais retourner à l'accueil.
-          </div>
-        }
+        width={27}
+        title="Your modal title"
+        message="Your modal message"
       />
       <p>And another description below</p>
     </div>
