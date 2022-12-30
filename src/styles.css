@@ -14,11 +14,11 @@
 .modal-content {
   position: relative;
   background-color: #fefefe;
+  text-align: left;
   border-radius: 0.4em;
   margin: auto;
   padding: 18px;
   border: 1px solid rgb(109, 109, 109);
-  width: 65%;
 }
 
 h3 {
