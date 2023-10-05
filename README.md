@@ -4,6 +4,15 @@
 [![npm](https://img.shields.io/npm/v/@alex-pqn/react-modal)](https://www.npmjs.com/package/@alex-pqn/react-modal)
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/Alex-Pqn/AlexandrePaquien_14_112022_2)](./package.json)
 
+## Prerequisites
+
+- You will need to have Node and `npm` installed locally on your machine.
+
+| Node Version | Supported          |
+| ------------ | ------------------ |
+| 16.x & >     | :x:                |
+| 15.x         | :white_check_mark: |
+
 ## Install
 
 ```bash
