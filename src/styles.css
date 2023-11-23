@@ -21,8 +21,10 @@
   border: 1px solid rgb(109, 109, 109);
 }
 
-h3 {
-  margin-top: 0;
+.modal-title {
+  h3 {
+    margin-top: 0;
+  }
 }
 
 .modal-close {
@@ -37,4 +39,35 @@ h3 {
 .modal-close:focus {
   cursor: pointer;
   color: #000;
+}
+
+/* Medium devices */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .modal-content {
+    width: 60% !important;
+  }
+}
+
+/* Small devices */
+@media only screen and (max-width: 768px) {
+  .modal-title h3 {
+    font-size: 1.05em;
+  }
+  .modal-message p {
+    font-size: 0.9em;
+  }
+}
+
+/* Small devices */
+@media only screen and (min-width: 568px) and (max-width: 768px) {
+  .modal-content {
+    width: 75% !important;
+  }
+}
+
+/* Small devices */
+@media only screen and (max-width: 568px) {
+  .modal-content {
+    width: 85% !important;
+  }
 }

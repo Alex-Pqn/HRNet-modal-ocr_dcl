@@ -1,7 +1,7 @@
-import '../../styles.css';
+import '../../styles.css'
 
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 
 /**
  *
@@ -13,7 +13,7 @@ import PropTypes from 'prop-types';
  * @returns Custom Modal
  */
 export const Modal = (props) => {
-  const closeModal = () => props.trigger(false);
+  const closeModal = () => props.trigger(false)
 
   return (
     <>
@@ -29,20 +29,20 @@ export const Modal = (props) => {
               </span>
             </div>
             <div className="modal-message">
-              <span>{props.message}</span>
+              <p>{props.message}</p>
             </div>
           </div>
         </div>
       )}
     </>
-  );
-};
+  )
+}
 
 Modal.defaultProps = {
   title: 'Your modal title',
   message: 'Your modal message',
   width: 27,
-};
+}
 
 Modal.propTypes = {
   isShown: PropTypes.bool.isRequired,
@@ -50,4 +50,4 @@ Modal.propTypes = {
   title: PropTypes.string,
   message: PropTypes.any,
   width: PropTypes.number,
-};
+}
